@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+# Symlink configs
+mkdir -p $HOME/.gnupg
+mkdir -p $HOME/.gnupg/crls.d
+
+ln -sf $DOT_DIR/gnupg/config/dirmngr.conf $HOME/.gnupg/dirmngr.conf
+ln -sf $DOT_DIR/gnupg/config/gpg.conf $HOME/.gnupg/gpg.conf
+ln -sf $DOT_DIR/gnupg/config/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
+ln -sf $DOT_DIR/gnupg/config/crls.d/DIR.txt $HOME/.gnupg/crls.d/DIR.txt
+
+# Symlink keys

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -e
+
+docker create -it                               \
+              --init                            \
+              --name=selenium-standalone-chrome \
+              --restart=no                      \
+              --shm-size=2g                     \
+              -p :$SELENIUM_PORT:$SELENIUM_PORT \
+              selenium/standalone-chrome:4

@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+# Silence last login message:
+ln -s $DOT_DIR/terminal/.hushlogin $HOME/.hushlogin
+
+# Add profiles:
+open $DOT_DIR/terminal/profiles/remote.terminal
+osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"remote\""
+osascript \
+    -e "tell application \"Terminal\"" \
+    -e "do script \"exit\" in tab 1 of front window" \
+    -e "end tell" > /dev/null
+
+open $DOT_DIR/terminal/profiles/local.terminal
+osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"local\""
+osascript \
+    -e "tell application \"Terminal\"" \
+    -e "do script \"exit\" in tab 1 of front window" \
+    -e "end tell" > /dev/null
+
+defaults write com.apple.terminal "Default Window Settings" "local"

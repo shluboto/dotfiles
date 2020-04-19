@@ -1,0 +1,25 @@
+setopt prompt_subst
+
+set_prompt() {
+  local on_git=$(git rev-parse --is-inside-work-tree 2>/dev/null)
+
+  if [ "$on_git" = "" ]; then # no git -> normal prompt
+    PS1="%F{grey}%/ "$'\n'"%F{white}%* %F{red}> %F{white}%"
+  else
+		local git_dir=$(git rev-parse --git-dir)
+    local git_status=$(git status --porcelain | perl -we '%k=map{$_=>1}split("",join("",map{/^(..)/&&$1}<>));print sort keys%k')
+		local git_rebase=$(test -d "$git_dir/rebase-merge" || test -d "$git_dir/rebase-apply" && echo "rebasing")
+		local git_branch=$([[ $git_rebase = "" ]] && echo $(git symbolic-ref --short HEAD 2>/dev/null) || echo $git_rebase)
+
+    if command -v rvm-prompt >/dev/null 2>&1; then
+      local prog_prompt=$(rvm-prompt s)
+    elif command -v ruby >/dev/null 2>&1; then
+      local prog_prompt=$(ruby -v | awk '{ printf "%s-%s", $1, $2 }')
+    else
+      local prog_prompt="?"
+    fi
+
+    PS1="%F{grey}%/ %F{green}($git_branch%F{red}$git_status%F{green}) %F{magenta}$prog_prompt "$'\n'"%F{white}%* %F{red}> %F{white}%"
+  fi
+}
+precmd_functions+=(set_prompt)

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+source $HOME/.env
+
+cmd="mysql $@ -h $MYSQL_HOST -uroot -p$MYSQL_ROOT_PASSWORD"
+
+docker exec -it                                         \
+            -e MYSQL_ROOT_PASSWORD:$MYSQL_ROOT_PASSWORD \
+            -e MYSQL_ALLOW_EMPTY_PASSWORD=1             \
+            mysql /bin/sh -c "$cmd"

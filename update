@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Source env
+./env/.env
+
+# Update command line tools
+xcode-select --install 2>&1
+
+# Update homebrew:
+./homebrew/update
+
+# Update rvm:
+echo "Implement rvm update"
+
+# Update rubies
+echo "Implement ruby update"
+
+# Update docker
+echo "Implement docker update"

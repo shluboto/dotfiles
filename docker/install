@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+curl -sSL https://download.docker.com/mac/stable/Docker.dmg --output $HOME/Docker.dmg
+
+yes | hdiutil mount $HOME/Docker.dmg
+
+sudo cp -R "/Volumes/Docker" /Applications
+hdiutil unmount "/Volumes/Docker"
+
+rm $HOME/Docker.dmg
+
+ln -sf $DOT_DIR/docker/config/config.json $HOME/.docker/config.json
+ln -sf $DOT_DIR/docker/config/daemon.json $HOME/.docker/daemon.json
+
+./create/ddclient
+./create/memcached
+./create/mysql
+./create/nginx
+./create/node
+./create/selenium

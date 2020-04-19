@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+set -e
+
+ln -sf $DOT_DIR/docker/exec/nginx /usr/local/bin
+
+docker create -it                                             \
+              --init                                          \
+              --name=nginx                                    \
+              --restart=unless-stopped                        \
+              -p :$NGINX_PORT:$NGINX_PORT                     \
+              -p :$NGINX_SSL_PORT:$NGINX_SSL_PORT             \
+              -v $DOT_DIR/nginx/snippets:/etc/nginx/snippets  \
+              -v $PWD_DIR/auth:/etc/nginx/auth                \
+              -e NGINX_PORT                                   \
+              -e NGINX_SSL_PORT                               \
+              -e HOST_IP                                      \
+              nginx:1.19
+
+docker start nginx

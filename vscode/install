@@ -1,0 +1,43 @@
+#!/bin/sh
+
+set -e
+
+# Install vscode
+curl -L https://go.microsoft.com/fwlink/?LinkID=620882 --output $HOME/Downloads/vscode.zip
+
+unzip -a $HOME/Downloads/vscode.zip -d /Applications
+rm $HOME/Downloads/vscode.zip
+
+# Create symlinks
+mkdir -p $HOME/.vscode
+mkdir -p $HOME/.vscode/User
+
+ln -sf $DOT_DIR/vscode/workspaces/* $DVL_DIR
+ln -sf $DOT_DIR/vscode/configs/argv.json $HOME/.vscode/
+ln -sf $DOT_DIR/vscode/configs/languagepacks.json $HOME/.vscode/
+ln -sf $DOT_DIR/vscode/configs/rapid_render.json $HOME/.vscode/
+ln -sf $DOT_DIR/vscode/configs/storage.json $HOME/.vscode/
+ln -sf $DOT_DIR/vscode/configs/keybinding.json $HOME/.vscode/User
+ln -sf $DOT_DIR/vscode/configs/settings.json $HOME/.vscode/User
+
+# Install extensions
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension srebornix.Ruby
+code --install-extension castwide.solargraph
+code --install-extension vayan.haml
+code --install-extension eamodio.gitlens
+code --install-extension codezombiech.gitignore
+code --install-extension alefragnani.project-manager
+code --install-extension emilast.LogFileHighlighter
+code --install-extension berublan.vscode-log-viewer
+code --install-extension christian-kohler.path-intellisense
+code --install-extension Tyriar.terminal-tabs
+code --install-extension faustinoaq.crystal-lang
+code --install-extension fatihacet.gitlab-workflow
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension KnisterPeter.vscode-github
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension connorshea.vscode-ruby-test-adapter
+code --install-extension liximomo.sftp

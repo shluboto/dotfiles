@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "manager/dflfantasy"
+		},
+		{
+			"path": "manager/documentation"
+		},
+		{
+			"path": "manager/feeds_production-d3"
+		},
+		{
+			"path": "manager/feeds_production-sts"
+		},
+		{
+			"path": "manager/feeds_staging-d3"
+		},
+		{
+			"path": "manager/feeds_staging-sts"
+		}
+	],
+	"settings": {}
+}

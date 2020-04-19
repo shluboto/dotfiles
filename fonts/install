@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Install font
+curl -sSL https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip --output $HOME/Fira_Code_v5.2.zip
+
+unzip -a $HOME/Fira_Code_v5.2.zip -d $HOME/Fira_Code_v5.2
+rm $HOME/Fira_Code_v5.2.zip
+
+cp -r $HOME/Fira_Code_v5.2/ttf/*.ttf /Library/Fonts
+rm -r $HOME/Fira_Code_v5.2

@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -e
+
+ln -sf $DOT_DIR/docker/exec/ddclient /usr/local/bin
+
+docker create -it                       \
+              --init                    \
+              --name=ddclient           \
+              --restart=unless-stopped  \
+              linuxserver/ddclient
+
+docker start ddclient
+
+cmd_1="sed -i -- 's/<LOGIN>/$OFFICIAL_EMAIL/g' config/ddclient.conf"
+cmd_2="sed -i -- 's/<PASSWORD>/$CLOUDFLARE_API_KEY/g' config/ddclient.conf"
+
+docker cp $DOT_DIR/ddclient/ddclient.conf ddclient:/config
+docker exec -it ddclient sh -c "$cmd_1 && $cmd_2"
+
+docker stop ddclient
+docker start ddclient

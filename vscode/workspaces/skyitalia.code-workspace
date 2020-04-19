@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "skyitalia/skyitfantasy"
+		},
+		{
+			"path": "skyitalia/skyithub"
+		},
+		{
+			"path": "skyitalia/feeds_production"
+		},
+		{
+			"path": "skyitalia/feeds_staging"
+		}
+	],
+	"settings": {}
+}

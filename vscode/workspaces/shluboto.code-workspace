@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "shluboto/dotfiles"
+		},
+		{
+			"path": "shluboto/time_spanner"
+		},
+		{
+			"path": "shluboto/web"
+		},
+		{
+			"path": "shluboto/private"
+		}
+	],
+	"settings": {}
+}

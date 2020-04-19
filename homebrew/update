@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Ensure latest Homebrew
+brew update
+
+# Upgrade any installed formulae
+brew upgrade
+
+# Remove outdated versions from cellar
+brew cleanup
+
+# Ensure brew is fine
+brew doctor

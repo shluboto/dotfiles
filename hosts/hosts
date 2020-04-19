@@ -1,0 +1,28 @@
+127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1 localhost
+
+127.0.0.1 mysql
+127.0.0.1 mattermost.localhost
+
+127.0.0.1 game-ab-dflfantasy.neopoly.de
+127.0.0.1 desk-ab-dflfantasy.neopoly.de
+127.0.0.1 share-ab-dflfantasy.neopoly.de
+127.0.0.1 ranking-ab-dflfantasy.neopoly.de
+127.0.0.1 faktory-ab-dflfantasy.neopoly.de
+127.0.0.1 match_details-ab-dflfantasy.neopoly.de
+
+127.0.0.1 game-ab-laola1fantasy.neopoly.de
+127.0.0.1 desk-ab-laola1fantasy.neopoly.de
+127.0.0.1 share-ab-laola1fantasy.neopoly.de
+127.0.0.1 ranking-ab-laola1fantasy.neopoly.de
+
+127.0.0.1 game-ab-skyitfantasy.neopoly.de
+127.0.0.1 desk-ab-skyitfantasy.neopoly.de
+127.0.0.1 share-ab-skyitfantasy.neopoly.de
+127.0.0.1 ranking-ab-skyitfantasy.neopoly.de
+
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section

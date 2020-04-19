@@ -1,0 +1,41 @@
+#!/bin/sh
+
+# Setup env
+ln -sf ./env/.env $HOME/.env
+source $HOME/.env
+
+# Setup shell:
+./zsh/install
+
+# Setup terminal
+./scripts/setup_terminal
+
+# Copy hosts file
+sudo cp hosts/hosts /private/etc/hosts
+
+# Install command line tools
+xcode-select --install 2>&1
+
+# Install homebrew:
+#./homebrew/install
+
+# Setup curl
+./curl/install
+
+# Install git:
+./git/install
+
+# Install rvm:
+#./rvm/install
+
+# Install rubies
+#./ruby/install
+
+# Install docker
+#./docker/install
+
+# Install fonts:
+#./fonts/install
+
+# Install vscode
+#./vscode/install

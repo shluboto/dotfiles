@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "scoreboard/scoreboard.cr"
+		},
+		{
+			"path": "scoreboard/scoreboard-manager2"
+		},
+		{
+			"path": "scoreboard/scoreboard-adrenalyn"
+		}
+	],
+	"settings": {}
+}

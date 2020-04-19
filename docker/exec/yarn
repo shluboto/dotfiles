@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+source $HOME/.env
+
+cmd="yarn $@ -s --frozen-lockfile --no-progress --cache-folder /home/node/.cache/yarn"
+docker exec -it -w $PWD node /bin/sh -c "$cmd"
