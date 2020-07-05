@@ -1,6 +1,5 @@
-./**/.bundle/
+**/.bundle
 .idea
 .rakeTasks
 .generators
 .DS_Store
-.solargraph.yml
