@@ -21,3 +21,6 @@ bundle config gems.neopoly.com $NEO_GEMS_KEY
 
 # Generate docs:
 rvm all do rvm docs generate
+
+# Symlink global rubocop configuration:
+ln -s $DOT_DIR/ruby/.rubocop.yml $HOME/.rubocop.yml

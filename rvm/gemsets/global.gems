@@ -1,7 +1,9 @@
 gem-shut-the-fuck-up
 dotenv
-solargraph
 standard
-rubocop
+reek
+solargraph
+solargraph-standardrb
+solargraph-reek
 foreman
 warning
