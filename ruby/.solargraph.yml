@@ -1,0 +1,17 @@
+---
+plugins:
+- solargraph-standardrb
+- solargraph-reek
+include:
+- "**/*.rb"
+exclude:
+- ".bundle/**/*"
+require: []
+domains: []
+reporters:
+- standardrb
+- reek
+- require_not_found
+- typecheck
+require_paths: []
+max_files: 0
