@@ -15,6 +15,4 @@ docker create -it                                             \
               -e NGINX_PORT                                   \
               -e NGINX_SSL_PORT                               \
               -e HOST_IP                                      \
-              nginx:1.19
-
-docker start nginx
+              nginx:$NGINX_VERSION

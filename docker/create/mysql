@@ -4,16 +4,16 @@ set -e
 
 ln -sf $DOT_DIR/docker/exec/mysql /usr/local/bin
 
-docker create -it                                                             \
-              --init                                                          \
-              --name=mysql                                                    \
-              --restart=unless-stopped                                        \
-              -p :$MYSQL_PORT:$MYSQL_PORT                                     \
-              -v mysql-storage:/var/lib/mysql                                 \
-              -e MYSQL_ROOT_PASSWORD:$MYSQL_ROOT_PASSWORD                     \
-              -h MYSQL_HOST                                                   \
-              mysql:8.0 --default-authentication-plugin=mysql_native_password \
-                        --character-set-server=utf8mb4                        \
-                        --collation-server=utf8mb4_unicode_ci                 \
+docker create -it                                                                        \
+              --init                                                                     \
+              --name=mysql                                                               \
+              --restart=unless-stopped                                                   \
+              -p :$MYSQL_PORT:$MYSQL_PORT                                                \
+              -v mysql-storage:/var/lib/mysql                                            \
+              -e MYSQL_ROOT_PASSWORD:$MYSQL_ROOT_PASSWORD                                \
+              -h MYSQL_HOST                                                              \
+              mysql:$MYSQL_VERSION --default-authentication-plugin=mysql_native_password \
+                                   --character-set-server=utf8mb4                        \
+                                   --collation-server=utf8mb4_unicode_ci                 \
 
 docker start mysql
