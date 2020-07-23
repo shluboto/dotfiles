@@ -7,12 +7,8 @@
                 "configURIPath": "file:///Users/ab_local/devel/shluboto.code-workspace"
             },
             {
-                "id": "e12eb08e6392b3d94b9705141712aeb9",
-                "configURIPath": "file:///Users/ab_local/devel/neopoly.code-workspace"
-            },
-            {
-                "id": "93d92f626573c9ee42ec774030c10d4e",
-                "configURIPath": "file:///Users/ab_local/devel/scoreboard.code-workspace"
+                "id": "b79d23d7c54057581804ebf084d3b24f",
+                "configURIPath": "file:///Users/ab_local/devel/skyitalia.code-workspace"
             },
             {
                 "id": "810f4c81e06515435bbf3139cd2c40c6",
@@ -22,18 +18,27 @@
                 "id": "c6fd40a1c19c7d62317944894a413c32",
                 "configURIPath": "file:///Users/ab_local/devel/dflfantasy.code-workspace"
             },
-            "vscode-remote://ssh-remote%2Boffice/home/ab",
-            {
-                "id": "b79d23d7c54057581804ebf084d3b24f",
-                "configURIPath": "file:///Users/ab_local/devel/skyitalia.code-workspace"
-            },
             {
                 "id": "02449bbfdd1500fa5a3e72aded6da863",
                 "configURIPath": "file:///Users/ab_local/devel/sueddeutsche.code-workspace"
             },
             {
+                "id": "93d92f626573c9ee42ec774030c10d4e",
+                "configURIPath": "file:///Users/ab_local/devel/scoreboard.code-workspace"
+            },
+            "vscode-remote://ssh-remote%2Boffice/home/projekte",
+            {
+                "id": "1ebc72b014112bab786fa1c522527d37",
+                "configURIPath": "file:///Users/ab_local/devel/manager/office-ab.code-workspace"
+            },
+            "vscode-remote://ssh-remote%2Boffice/home/ab",
+            {
                 "id": "023e3a68d8bd85e3069ab6849c7cd65a",
                 "configURIPath": "file:///Users/ab_local/devel/neopoly-personal.code-workspace"
+            },
+            {
+                "id": "e12eb08e6392b3d94b9705141712aeb9",
+                "configURIPath": "file:///Users/ab_local/devel/neopoly.code-workspace"
             },
             "file:///Users/ab_local/devel/ab",
             {
@@ -172,14 +177,16 @@
         ],
         "workspaceLabels": [
             null,
-            "/Users/ab_local/devel/neopoly (Workspace)",
-            null,
-            null,
-            null,
-            "/home/ab [SSH: office]",
             "/Users/ab_local/devel/skyitalia (Workspace)",
             null,
+            "/Users/ab_local/devel/dflfantasy (Workspace)",
             null,
+            null,
+            "/home/projekte [SSH: office]",
+            null,
+            "/home/ab [SSH: office]",
+            null,
+            "/Users/ab_local/devel/neopoly (Workspace)",
             null,
             "/Users/ab_local/devel/dflffantasy (Workspace)",
             null,
@@ -263,21 +270,11 @@
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/Users/ab_local/devel/neopoly.code-workspace",
+                                        "path": "/Users/ab_local/devel/skyitalia.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/Users/ab_local/devel/neopoly (Workspace)"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/ab_local/devel/scoreboard.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/devel/scoreboard (Workspace)"
+                                    "label": "/Users/ab_local/devel/skyitalia (Workspace)"
                                 },
                                 {
                                     "id": "openRecentWorkspace",
@@ -297,7 +294,49 @@
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/devel/dflfantasy (Workspace)"
+                                    "label": "/Users/ab_local/devel/dflfantasy (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/ab_local/devel/sueddeutsche.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/devel/sueddeutsche (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/ab_local/devel/scoreboard.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/devel/scoreboard (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://ssh-remote%2Boffice/home/projekte",
+                                        "path": "/home/projekte",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+office"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/projekte [SSH: office]"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/ab_local/devel/manager/office-ab.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/devel/manager/office-ab (Workspace)"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -315,41 +354,11 @@
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/Users/ab_local/devel/skyitalia.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/Users/ab_local/devel/skyitalia (Workspace)"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/ab_local/devel/sueddeutsche.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/devel/sueddeutsche (Workspace)"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
                                         "path": "/Users/ab_local/devel/neopoly-personal.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/devel/neopoly-personal (Workspace)"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/ab_local/devel/ab",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/devel/ab"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -380,6 +389,7 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///usr/local/Homebrew/completions/zsh/_brew",
                                         "path": "/usr/local/Homebrew/completions/zsh/_brew",
                                         "scheme": "file"
                                     },
@@ -401,6 +411,7 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///Users/ab_local/devel/manager/dflfantasy/Procfile",
                                         "path": "/Users/ab_local/devel/manager/dflfantasy/Procfile",
                                         "scheme": "file"
                                     },
@@ -422,6 +433,7 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///Users/ab_local/devel/shluboto/dotfiles/vscode/settings.json",
                                         "path": "/Users/ab_local/devel/shluboto/dotfiles/vscode/settings.json",
                                         "scheme": "file"
                                     },
@@ -432,6 +444,7 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///Users/ab_local/devel/skyitalia/skyitfantasy/.git/rebase-merge/git-rebase-todo",
                                         "path": "/Users/ab_local/devel/skyitalia/skyitfantasy/.git/rebase-merge/git-rebase-todo",
                                         "scheme": "file"
                                     },
@@ -442,6 +455,7 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///Users/ab_local/devel/skyitalia/feeds/.vscode/sftp.json",
                                         "path": "/Users/ab_local/devel/skyitalia/feeds/.vscode/sftp.json",
                                         "scheme": "file"
                                     },
@@ -452,6 +466,7 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///Users/ab_local/devel/manager/dflfantasy/.git/rebase-merge/git-rebase-todo",
                                         "path": "/Users/ab_local/devel/manager/dflfantasy/.git/rebase-merge/git-rebase-todo",
                                         "scheme": "file"
                                     },
@@ -1829,13 +1844,42 @@
             "backupPath": "/Users/ab_local/.vscode/Backups/20a7e9d896dd6f89f5931b25db9f342a",
             "uiState": {
                 "mode": 1,
-                "x": 56,
+                "x": 51,
                 "y": 0,
-                "width": 2503,
+                "width": 2509,
                 "height": 1440
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "workspaceIdentifier": {
+                    "id": "810f4c81e06515435bbf3139cd2c40c6",
+                    "configURIPath": "file:///Users/ab_local/devel/rohbau.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/.vscode/Backups/810f4c81e06515435bbf3139cd2c40c6",
+                "uiState": {
+                    "mode": 1,
+                    "x": 51,
+                    "y": 0,
+                    "width": 2509,
+                    "height": 1440
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "20a7e9d896dd6f89f5931b25db9f342a",
+                    "configURIPath": "file:///Users/ab_local/devel/shluboto.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/.vscode/Backups/20a7e9d896dd6f89f5931b25db9f342a",
+                "uiState": {
+                    "mode": 1,
+                    "x": 51,
+                    "y": 0,
+                    "width": 2509,
+                    "height": 1440
+                }
+            }
+        ]
     },
     "pickerWorkingDir": "/Users/ab_local/devel/shluboto/dotfiles/vscode"
 }
