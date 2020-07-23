@@ -4,5 +4,4 @@ set -e
 
 source $HOME/.env
 
-cmd="yarn $@ -s --frozen-lockfile --no-progress --cache-folder /home/node/.cache/yarn"
-docker exec -it -w $PWD node /bin/sh -c "$cmd"
+docker exec -it -w $(pwd) node /bin/sh -c "yarn $@"

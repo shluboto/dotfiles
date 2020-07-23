@@ -5,17 +5,12 @@ set -e
 ln -sf $DOT_DIR/docker/exec/node /usr/local/bin
 ln -sf $DOT_DIR/docker/exec/yarn /usr/local/bin
 
-user_id=$(id -u)
-user_gid=$(id -g)
-
 docker create -it                                         \
               --init                                      \
               --name=node                                 \
               --restart=unless-stopped                    \
               --shm-size 512M                             \
-              -u $user_id:$user_gid                       \
               -v $HOME:$HOME                              \
-              -v $HOME/.cache/yarn:/home/node/.cache/yarn \
-              node:lts-alpine3.11
+              node:lts
 
 docker start node
