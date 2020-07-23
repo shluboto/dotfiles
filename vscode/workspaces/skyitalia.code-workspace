@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "skyitalia/feeds_staging"
+		},
+		{
+			"path": "scoreboard/scoreboard-manager2"
 		}
 	],
 	"settings": {}

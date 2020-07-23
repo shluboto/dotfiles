@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "ab/sample_project"
+		},
+		{
+			"path": "ab/project_setups"
 		}
 	],
 	"settings": {}
