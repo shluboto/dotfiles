@@ -1,0 +1,4 @@
+#!/bin/sh
+
+alias gg="git log"
+alias gst="git st"

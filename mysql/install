@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+# Install local client
+brew install mysql-client
+
+# Create docker container
+./$DOT_DIR/docker/create/mysql
+
+# Link mysql executable
+ln -sf $DOT_DIR/docker/exec/mysql /usr/local/bin

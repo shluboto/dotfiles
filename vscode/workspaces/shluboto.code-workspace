@@ -1,16 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "shluboto/dotfiles"
+			"path": "../../../../shluboto/dotfiles"
 		},
 		{
-			"path": "shluboto/time_spanner"
+			"path": "../../../../shluboto/time_spanner"
 		},
 		{
-			"path": "shluboto/web"
+			"path": "../../../../shluboto/web"
 		},
 		{
-			"path": "shluboto/private"
+			"path": "../../../../shluboto/private"
 		}
 	],
 	"settings": {}

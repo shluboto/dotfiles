@@ -1,14 +1,15 @@
 #!/bin/sh
 
+set -e
+
 # Setup env
-ln -sf ./env/.env $HOME/.env
-source $HOME/.env
+./env/install
 
 # Setup shell:
 ./zsh/install
 
 # Setup terminal
-./scripts/setup_terminal
+./terminal/install
 
 # Copy hosts file
 sudo cp hosts/hosts /private/etc/hosts
@@ -17,19 +18,13 @@ sudo cp hosts/hosts /private/etc/hosts
 xcode-select --install 2>&1
 
 # Install homebrew:
-#./homebrew/install
-
-# Setup curl
-./curl/install
+./homebrew/install
 
 # Install git:
 ./git/install
 
-# Install rvm:
-#./rvm/install
-
 # Install rubies
-#./ruby/install
+./ruby/install
 
 # Install docker
 #./docker/install

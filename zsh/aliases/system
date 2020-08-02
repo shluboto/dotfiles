@@ -1,4 +1,0 @@
-alias ls='gls -alhFG --color=auto --group-directories-first'
-alias grep='grep --colour=auto'
-alias port='pstree ' # Process tree for given port
-alias code='code --user-data-dir=$HOME/.vscode/'

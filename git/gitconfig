@@ -1,0 +1,59 @@
+[alias]
+  co = checkout
+  st = status -s
+  cp = cherry-pick
+  b  = branch -a
+  c  = commit -v
+  l  = pull -v
+  p  = push -uv
+  d  = diff
+  r  = rebase
+
+  changed = d --name-only --unified=1
+  unstage = reset HEAD
+  undo    = reset --soft HEAD^
+  reset   = reset --hard HEAD^
+  log     = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %C(bold)%s %Creset%C(white)%an%Creset %C(green)%cr' --abbrev-commit
+  csvdiff = d --color --unified=0 --word-diff-regex="[^;,]+"
+
+  pf  = p --force-with-lease
+  ps  = p -o ci.skip
+  pfs = pf -o ci.skip
+
+  ri = r -i
+  ra = r --abort
+  rc = r --continue
+
+[diff]
+  tool = default-difftool
+
+[difftool "default-difftool"]
+  cmd = $EDITOR --diff $LOCAL $REMOTE
+
+[color]
+  branch = auto
+  diff   = auto
+  status = auto
+  grep   = auto
+
+[branch]
+  autosetuprebase = always
+
+[push]
+	default = current
+
+[core]
+  editor = $EDITOR -
+  pager = cat
+	excludesfile = /Users/ab_local/Development/shluboto/dotfiles/git/gitignore
+[user]
+	name = Andreas Busold
+	email = ab@neopoly.de
+[github]
+	user = shluboto
+	email = shluboto@gmail.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

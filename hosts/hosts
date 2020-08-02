@@ -22,6 +22,11 @@
 127.0.0.1 share-ab-skyitfantasy.neopoly.de
 127.0.0.1 ranking-ab-skyitfantasy.neopoly.de
 
+# Cloudflare
+87.139.102.24 www-stage.sueddeutsche.de
+13.226.132.6 staging-fantasy.bundesliga.com
+13.226.132.2 staging-fantasy.bundesliga.de
+
 # Added by Docker Desktop
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal

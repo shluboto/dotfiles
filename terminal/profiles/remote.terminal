@@ -78,7 +78,7 @@
 	<key>ShowRepresentedURLPathInTabTitle</key>
 	<true/>
 	<key>ShowRepresentedURLPathInTitle</key>
-	<false/>
+	<true/>
 	<key>ShowShellCommandInTitle</key>
 	<false/>
 	<key>ShowTTYNameInTitle</key>

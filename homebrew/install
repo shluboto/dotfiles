@@ -4,26 +4,15 @@
 
 # Install default formulae
 brew install coreutils
-brew install openssl
 brew install pstree
-brew install git
-brew install git-lfs
-brew install gnupg
-brew install crystal
-brew install imagemagick
 brew install zlib
-brew install mysql-client
-
-# Install legacy formulae for rubies < 2.4
-brew install rbenv/tap/openssl@1.0
 
 # Install dflfantasy specific formulae
-brew install librsvg2
-brew install gobject-introspection
+#brew install librsvg2
+#brew install gobject-introspection
 
 # Install sdquiz specific formulae
-brew install v8@3.15
-brew install imagemagick@6
+#brew install v8@3.15
 
 # Install sddrive specific formulae
-brew install ffmpeg
+#brew install ffmpeg

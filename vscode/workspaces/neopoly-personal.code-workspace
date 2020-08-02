@@ -1,13 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "ab/ddd-example"
+			"path": "../../../../neopoly/ab/ddd-example"
 		},
 		{
-			"path": "ab/sample_project"
+			"path": "../../../../neopoly/ab/sample_project"
 		},
 		{
-			"path": "ab/project_setups"
+			"path": "../../../../neopoly/ab/project_setups"
 		}
 	],
 	"settings": {}

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+brew install openssl
+brew install crystal

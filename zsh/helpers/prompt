@@ -1,6 +1,8 @@
+#!/bin/sh
+
 setopt prompt_subst
 
-set_prompt() {
+function set_prompt() {
   local on_git=$(git rev-parse --is-inside-work-tree 2>/dev/null)
 
   if [ "$on_git" = "" ]; then # no git -> normal prompt

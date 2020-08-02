@@ -1,5 +1,9 @@
-ssh () {
+#!/bin/sh
+
+function ssh () {
   osascript $DOT_DIR/terminal/set_profile.applescript "remote"
   command ssh "$@"
   osascript $DOT_DIR/terminal/set_profile.applescript "local"
 }
+
+alias s=ssh

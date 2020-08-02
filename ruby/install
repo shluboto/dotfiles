@@ -2,25 +2,12 @@
 
 set -e
 
-# Configure rubygems:
-cp $DOT_DIR/ruby/.gemrc $HOME/.gemrc
-gem sources -a https://$RUBYGEMS_KEY@rubygems.org/
-gem sources -a https://$NEO_GEMS_KEY@gems.neopoly.com/
+# Install rbenv:
+brew install rbenv
 
-# Install non-eol rubies:
-rvm install 2.5.8
-rvm install 2.6.6
-rvm install 2.7.1
+# Rubies:
+rbenv install $RUBY_VERSION
 
-# Update rubygems:
-rvm all do gem update --system
-rvm all do gem install --default bundler
-
-# Configure bundler:
-bundle config gems.neopoly.com $NEO_GEMS_KEY
-
-# Generate docs:
-rvm all do rvm docs generate
-
-# Symlink global rubocop configuration:
-ln -s $DOT_DIR/ruby/.rubocop.yml $HOME/.rubocop.yml
+# Update rubygems/bundler:
+gem update --system
+gem install bundler

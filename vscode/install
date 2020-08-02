@@ -9,35 +9,42 @@ unzip -a $HOME/Downloads/vscode.zip -d /Applications
 rm $HOME/Downloads/vscode.zip
 
 # Create symlinks
-mkdir -p $HOME/.vscode
-mkdir -p $HOME/.vscode/User
+mkdir -p $VENDOR_DIR/.vscode
+mkdir -p $VENDOR_DIR/.vscode/User
 
-ln -sf $DOT_DIR/vscode/workspaces/* $DVL_DIR
-ln -sf $DOT_DIR/vscode/configs/argv.json $HOME/.vscode/
-ln -sf $DOT_DIR/vscode/configs/languagepacks.json $HOME/.vscode/
-ln -sf $DOT_DIR/vscode/configs/rapid_render.json $HOME/.vscode/
-ln -sf $DOT_DIR/vscode/configs/storage.json $HOME/.vscode/
-ln -sf $DOT_DIR/vscode/configs/keybinding.json $HOME/.vscode/User
-ln -sf $DOT_DIR/vscode/configs/settings.json $HOME/.vscode/User
+ln -sf $DOT_DIR/vscode/configs/argv.json $VENDOR_DIR/.vscode/
+ln -sf $DOT_DIR/vscode/configs/languagepacks.json $VENDOR_DIR/.vscode/
+ln -sf $DOT_DIR/vscode/configs/rapid_render.json $VENDOR_DIR/.vscode/
+ln -sf $DOT_DIR/vscode/configs/storage.json $VENDOR_DIR/.vscode/
+ln -sf $DOT_DIR/vscode/configs/keybinding.json $VENDOR_DIR/.vscode/User
+ln -sf $DOT_DIR/vscode/configs/settings.json $VENDOR_DIR/.vscode/User
+
+ln -sf $DOT_DIR/vscode/bin/code /usr/local/bin/
 
 # Install extensions
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension srebornix.Ruby
-code --install-extension castwide.solargraph
-code --install-extension vayan.haml
-code --install-extension eamodio.gitlens
-code --install-extension codezombiech.gitignore
 code --install-extension alefragnani.project-manager
-code --install-extension emilast.LogFileHighlighter
 code --install-extension berublan.vscode-log-viewer
+code --install-extension castwide.solargraph
 code --install-extension christian-kohler.path-intellisense
-code --install-extension Tyriar.terminal-tabs
-code --install-extension faustinoaq.crystal-lang
-code --install-extension fatihacet.gitlab-workflow
-code --install-extension ms-vscode-remote.remote-containers
-code --install-extension KnisterPeter.vscode-github
-code --install-extension yzhang.markdown-all-in-one
-code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension codezombiech.gitignore
 code --install-extension connorshea.vscode-ruby-test-adapter
+code --install-extension cssho.vscode-svgviewer
+code --install-extension cweijan.vscode-mysql-client2
+code --install-extension dotjoshjohnson.xml
+code --install-extension eamodio.gitlens
+code --install-extension emilast.logfilehighlighter
+code --install-extension fabiospampinato.vscode-terminals
+code --install-extension faustinoaq.crystal-lang
+code --install-extension gitlab.gitlab-workflow
+code --install-extension hbenl.vscode-test-explorer
+code --install-extension idleberg.applescript
+code --install-extension janisdd.vscode-edit-csv
+code --install-extension knisterpeter.vscode-github
 code --install-extension liximomo.sftp
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension rebornix.ruby
+code --install-extension syler.sass-indented
+code --install-extension vayan.haml
+code --install-extension yzhang.markdown-all-in-one

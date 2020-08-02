@@ -1,8 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 set -e
-
-ln -sf $DOT_DIR/docker/exec/mysql /usr/local/bin
 
 docker create -it                                                                        \
               --init                                                                     \

@@ -9,9 +9,6 @@ xcode-select --install 2>&1
 # Update homebrew:
 ./homebrew/update
 
-# Update rvm:
-echo "Implement rvm update"
-
 # Update rubies
 echo "Implement ruby update"
 

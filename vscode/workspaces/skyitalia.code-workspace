@@ -1,19 +1,19 @@
 {
 	"folders": [
 		{
-			"path": "skyitalia/skyitfantasy"
+			"path": "../../../../skyitalia/skyitfantasy"
 		},
 		{
-			"path": "skyitalia/skyithub"
+			"path": "../../../../skyitalia/skyithub"
 		},
 		{
-			"path": "skyitalia/feeds_production"
+			"path": "../../../../skyitalia/feeds_production"
 		},
 		{
-			"path": "skyitalia/feeds_staging"
+			"path": "../../../../skyitalia/feeds_staging"
 		},
 		{
-			"path": "scoreboard/scoreboard-manager2"
+			"path": "../../../../scoreboard/scoreboard-manager2"
 		}
 	],
 	"settings": {}

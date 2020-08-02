@@ -2,5 +2,15 @@
 
 set -e
 
-ln -sf $DOT_DIR/git/.gitconfig $HOME/.gitconfig
-ln -sf $DOT_DIR/git/.gitignore $HOME/.gitignore
+brew install git
+brew install git-lfs
+
+git lfs install --system
+
+ln -sf $DOT_DIR/git/gitconfig /usr/local/etc/gitconfig
+
+git config --system core.excludesfile $DOT_DIR/git/gitignore
+git config --system user.name "$REAL_NAME"
+git config --system user.email "$NEO_EMAIL"
+git config --system github.user "$GITHUB_NAME"
+git config --system github.email "$GITHUB_EMAIL"

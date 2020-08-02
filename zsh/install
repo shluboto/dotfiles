@@ -2,7 +2,5 @@
 
 set -e
 
-ln -sf $DOT_DIR/zsh/.zlogin $HOME/.zlogin
 ln -sf $DOT_DIR/zsh/.zshrc $HOME/.zshrc
-
 source $HOME/.zshrc

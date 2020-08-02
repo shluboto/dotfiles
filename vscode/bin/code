@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+user_data_dir=$VENDOR_DIR/vscode/
+extensions_dir=$VENDOR_DIR/vscode/extensions
+
+command "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" \
+        --user-data-dir=$user_data_dir   \
+        --extensions-dir=$extensions_dir \
+        $@

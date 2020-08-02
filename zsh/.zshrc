@@ -12,22 +12,23 @@ setopt HIST_REDUCE_BLANKS
 
 # Environment variables:
 source $HOME/.env
-
-# Enable zsh completions:
-autoload -Uz compinit && compinit -i
-
-# Functions:
-source $DOT_DIR/zsh/functions/git
-source $DOT_DIR/zsh/functions/set_prompt
-source $DOT_DIR/zsh/functions/ssh
-
-# Aliases:
-source $DOT_DIR/zsh/aliases/system
-source $DOT_DIR/zsh/aliases/git
+source $DOT_DIR/private/.env
 
 # Paths:
-export PATH="$PATH:/usr/local/sbin"
-export PATH="$PATH:/usr/local/bin"
-export PATH="$PATH:$(brew --prefix)/opt/coreutils/libexec/gnubin"
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$RBENV_ROOT/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$(brew --prefix)/coreutils/libexec/gnubin:$PATH"
+
+# Completions:
+autoload -Uz compinit && compinit -i -d $GLOBAL_CACHE_DIR/zsh/zcompdump-$ZSH_VERSION
+
+# Helpers:
+source $DOT_DIR/zsh/helpers/reload
+source $DOT_DIR/zsh/helpers/prompt
+source $DOT_DIR/zsh/helpers/code
+source $DOT_DIR/zsh/helpers/git
+source $DOT_DIR/zsh/helpers/ssh
+source $DOT_DIR/zsh/helpers/ls
+
+cd $DEVEL_DIR
+eval "$(rbenv init -)"

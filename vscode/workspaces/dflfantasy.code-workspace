@@ -1,25 +1,25 @@
 {
 	"folders": [
 		{
-			"path": "manager/dflfantasy"
+			"path": "../../../../dfl/dflfantasy"
 		},
 		{
-			"path": "manager/documentation"
+			"path": "../../../../dfl/documentation"
 		},
 		{
-			"path": "manager/feeds_production-d3"
+			"path": "../../../../dfl/feeds_production-d3"
 		},
 		{
-			"path": "manager/feeds_production-sts"
+			"path": "../../../../dfl/feeds_production-sts"
 		},
 		{
-			"path": "manager/feeds_staging-d3"
+			"path": "../../../../dfl/feeds_staging-d3"
 		},
 		{
-			"path": "manager/feeds_staging-sts"
+			"path": "../../../../dfl/feeds_staging-sts"
 		},
 		{
-			"path": "scoreboard/scoreboard-manager2"
+			"path": "../../../../scoreboard/scoreboard-manager2"
 		}
 	],
 	"settings": {}

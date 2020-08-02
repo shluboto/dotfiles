@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+ln -sf .env $HOME/.env
+source $HOME/.env

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+function ls {
+  command gls -alhFG --color=auto --group-directories-first "$@"
+}
