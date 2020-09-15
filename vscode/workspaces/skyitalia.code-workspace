@@ -1,19 +1,28 @@
 {
 	"folders": [
 		{
+			"name": "skyitfantasy",
 			"path": "../../../../skyitalia/skyitfantasy"
 		},
 		{
+			"name": "skyithub",
 			"path": "../../../../skyitalia/skyithub"
 		},
 		{
+			"name": "skyitpredictor",
+			"path": "../../../../skyitalia/skyitpredictor"
+		},
+		{
+			"name": "feeds_production",
 			"path": "../../../../skyitalia/feeds_production"
 		},
 		{
+			"name": "feeds_staging",
 			"path": "../../../../skyitalia/feeds_staging"
 		},
 		{
-			"path": "../../../../scoreboard/scoreboard-manager2"
+			"name": "tmp",
+			"path": "../../../../skyitalia/tmp"
 		}
 	],
 	"settings": {}

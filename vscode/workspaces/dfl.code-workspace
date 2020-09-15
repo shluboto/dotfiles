@@ -7,13 +7,7 @@
 			"path": "../../../../dfl/documentation"
 		},
 		{
-			"path": "../../../../dfl/feeds_production-d3"
-		},
-		{
 			"path": "../../../../dfl/feeds_production-sts"
-		},
-		{
-			"path": "../../../../dfl/feeds_staging-d3"
 		},
 		{
 			"path": "../../../../dfl/feeds_staging-sts"

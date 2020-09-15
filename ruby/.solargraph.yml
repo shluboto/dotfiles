@@ -1,12 +1,10 @@
 ---
-plugins:
-- solargraph-standardrb
 include:
 - "**/*.rb"
 exclude:
-- ".bundle/**/*"
+- "**/.bundle"
 require: []
 domains: []
 reporters:
-- standardrb
+- require_not_found
 max_files: 5000

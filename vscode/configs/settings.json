@@ -34,21 +34,13 @@
     "crystal-lang.completion": true,
     "crystal-lang.hover": true,
     "crystal-lang.implementations": true,
-    "ruby.pathToBundler": "/Users/ab_local/Development/.vendor/rbenv/shims/bundle",
-    "ruby.useBundler": true,
-    "ruby.interpreter.commandPath": "/Users/ab_local/Development/.vendor/rbenv/shims/ruby",
     "rubyTestExplorer.logpanel": true,
     "rubyTestExplorer.minitestCommand": "rake",
     "rubyTestExplorer.minitestFilePattern": [
         "*_test.rb",
         "*_spec.rb"
     ],
-    "solargraph.autoformat": true,
-    "solargraph.formatting": true,
-    "solargraph.bundlerPath": "/Users/ab_local/Development/.vendor/rbenv/shims/bundle",
-    "solargraph.commandPath": "/Users/ab_local/Development/.vendor/rbenv/shims/solargraph",
     "solargraph.checkGemVersion": false,
-    "solargraph.diagnostics": true,
     "diffEditor.maxComputationTime": 0,
     "diffEditor.ignoreTrimWhitespace": true,
     "window.zoomLevel": 1,
@@ -95,11 +87,10 @@
     "gitlens.views.repositories.enabled": true,
     "gitlens.views.repositories.compact": true,
     "gitlens.views.repositories.avatars": false,
-    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.repositories.location": "scm",
     "gitlens.views.repositories.showBranchComparison": false,
-    "gitlens.views.compare.enabled": false,
     "gitlens.views.compare.avatars": false,
-    "gitlens.views.search.location": "gitlens",
+    "gitlens.views.search.location": "scm",
     "gitlens.views.search.avatars": false,
     "gitlens.views.search.files.layout": "tree",
     "gitlens.views.lineHistory.avatars": false,
@@ -149,5 +140,11 @@
         "**/.git/": true,
         "**/log": true,
         "**/tmp": true
-    }
+    },
+    "solargraph.diagnostics": true,
+    "rufo.exe": "/Users/ab_local/Development/.vendor/rbenv/shims/rufo",
+    "ruby.format": "rufo",
+    "vscode-mysql.resultTheme": "Default",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm"
 }

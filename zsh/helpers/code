@@ -5,8 +5,14 @@ function code_clean {
 }
 
 function code_project {
-  project_dir=$(find $DEVEL_DIR -maxdepth 2 -type d -name $1 -print)
+  echo $1
+  project_dir=$(find $DEVEL_DIR -maxdepth 1 -type d -name $1 -print)
   workspace_file=$DOT_DIR/vscode/workspaces/$1.code-workspace
+
+  $project_dir || return
+  $workspace_file || return
+
+  echo $workspace_file
 
   cd $project_dir
   code $workspace_file --new-window

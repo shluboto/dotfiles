@@ -28,7 +28,7 @@ source $DOT_DIR/zsh/helpers/prompt
 source $DOT_DIR/zsh/helpers/code
 source $DOT_DIR/zsh/helpers/git
 source $DOT_DIR/zsh/helpers/ssh
+source $DOT_DIR/zsh/helpers/nvm
 source $DOT_DIR/zsh/helpers/ls
 
-cd $DEVEL_DIR
 eval "$(rbenv init -)"
