@@ -17,10 +17,10 @@
 127.0.0.1 share-ab-laola1fantasy.neopoly.de
 127.0.0.1 ranking-ab-laola1fantasy.neopoly.de
 
-127.0.0.1 game-ab-skyitfantasy.neopoly.de
-127.0.0.1 desk-ab-skyitfantasy.neopoly.de
-127.0.0.1 share-ab-skyitfantasy.neopoly.de
-127.0.0.1 ranking-ab-skyitfantasy.neopoly.de
+127.0.0.1 hub.sky.it
+127.0.0.1 fantasy.sky.it
+127.0.0.1 desk-fantasy.sky.it
+127.0.0.1 share-fantasy.sky.it
 
 # Cloudflare
 87.139.102.24 www-stage.sueddeutsche.de
