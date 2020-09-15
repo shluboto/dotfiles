@@ -10,14 +10,17 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_FIND_NO_DUPS
 setopt HIST_REDUCE_BLANKS
 
+# Paths:
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
 # Environment variables:
 source $HOME/.env
-source $DOT_DIR/private/.env
+source $PRV_DIR/.env
 
 # Paths:
-export PATH="$RBENV_ROOT/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
 export PATH="$(brew --prefix)/coreutils/libexec/gnubin:$PATH"
+export PATH="$RBENV_ROOT/bin:$PATH"
 
 # Completions:
 autoload -Uz compinit && compinit -i -d $GLOBAL_CACHE_DIR/zsh/zcompdump-$ZSH_VERSION
