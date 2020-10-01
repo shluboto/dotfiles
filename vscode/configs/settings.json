@@ -1,14 +1,54 @@
 {
-    "workbench.startupEditor": "none",
+    // VS Code
+    "gulp.autoDetect": "off",
+    "grunt.autoDetect": "off",
+    "jake.autoDetect": "off",
+    "npm.autoDetect": "off",
+
+    "search.exclude": {
+        "**/.git/": true,
+        "**/log": true,
+        "**/tmp": true
+    },
+
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    // Workbench
+    "breadcrumbs.enabled": true,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": false,
     "workbench.sideBar.location": "left",
     "workbench.tree.indent": 14,
     "workbench.tree.renderIndentGuides": "none",
+    "workbench.list.automaticKeyboardNavigation": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.closeEmptyGroups": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.mouseBackForwardToNavigate": false,
-    "workbench.list.automaticKeyboardNavigation": false,
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "terminal.background": "#0f0e0e",
+            "activityBar.background": "#0f0e0e",
+            "sideBar.background": "#090909",
+            "panel.background": "#0f0e0e",
+            "editor.background": "#0f0e0e"
+        }
+    },
+
+    // Window
+    "window.newWindowDimensions": "inherit",
+    "window.restoreFullscreen": true,
+    "window.nativeTabs": true,
+    "window.titleBarStyle": "native",
+    "window.zoomLevel": 1,
+    "window.openFoldersInNewWindow": "on",
+
+    // Editor
     "editor.columnSelection": false,
+    "editor.fontSize": 14,
     "editor.fontFamily": "FiraCode-Light",
     "editor.fontLigatures": false,
     "editor.renderIndentGuides": true,
@@ -19,6 +59,13 @@
     "editor.formatOnSave": true,
     "editor.find.addExtraSpaceOnTop": false,
     "editor.overviewRulerBorder": true,
+
+    // Explorer
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -28,9 +75,24 @@
         ".env": "shellscript",
         "*.sample": "shellscript"
     },
+
+    // Terminal / Logging
+    "terminal.integrated.fontSize": 9,
+    "terminal.integrated.lineHeight": 1.4,
+    "terminal.integrated.cursorStyle": "underline",
+    "debug.console.fontSize": 9,
+    "[Log]": {
+        "editor.fontSize": 9
+    },
+
+    // Crystal
     "crystal-lang.completion": true,
     "crystal-lang.hover": true,
     "crystal-lang.implementations": true,
+
+    // Ruby
+    "ruby.format": "rufo",
+    "rufo.exe": "/Users/ab_local/Development/.vendor/rbenv/shims/rufo",
     "rubyTestExplorer.logpanel": true,
     "rubyTestExplorer.minitestCommand": "rake",
     "rubyTestExplorer.minitestFilePattern": [
@@ -38,22 +100,24 @@
         "*_spec.rb"
     ],
     "solargraph.checkGemVersion": false,
+    "solargraph.diagnostics": true,
+
+    // Git
     "diffEditor.maxComputationTime": 0,
     "diffEditor.ignoreTrimWhitespace": true,
-    "window.newWindowDimensions": "inherit",
-    "explorer.autoReveal": false,
-    "explorer.confirmDelete": true,
-    "explorer.compactFolders": false,
-    "explorer.confirmDragAndDrop": false,
-    "terminals.showCommands": true,
-    "logViewer.showStatusBarItemOnChange": true,
-    "logViewer.logLevel": "debug",
+    "diffEditor.renderSideBySide": false,
+
     "git.branchSortOrder": "alphabetically",
     "git.autoStash": true,
     "git.allowForcePush": true,
     "git.enableStatusBarSync": false,
+    "git.fetchOnPull": true,
+
+    // Gitlab
     "gitlab.showIssueLinkOnStatusBar": false,
     "gitlab.showMrStatusOnStatusBar": false,
+    "gitlab.instanceUrl": "https://gitlab.neopoly.de",
+
     "gitlens.hovers.annotations.details": false,
     "gitlens.hovers.currentLine.details": false,
     "gitlens.codeLens.recentChange.enabled": false,
@@ -62,10 +126,6 @@
     "gitlens.blame.format": "${author}",
     "gitlens.blame.heatmap.enabled": false,
     "gitlens.blame.compact": false,
-    "gitlens.blame.highlight.locations": [
-        "line",
-        "overview"
-    ],
     "gitlens.views.repositories.enabled": true,
     "gitlens.views.repositories.compact": true,
     "gitlens.views.repositories.avatars": false,
@@ -85,9 +145,6 @@
     "gitlens.hovers.enabled": true,
     "gitlens.hovers.avatars": false,
     "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.scopes": [
-        "document"
-    ],
     "gitlens.defaultDateStyle": "absolute",
     "gitlens.defaultDateFormat": "DD.MM.YYYY",
     "gitlens.defaultDateShortFormat": "dd.mm.yy",
@@ -96,64 +153,29 @@
     "gitlens.advanced.repositorySearchDepth": 3,
     "gitlens.gitCommands.closeOnFocusOut": true,
     "gitlens.mode.statusBar.enabled": false,
-    "gitlab.instanceUrl": "https://gitlab.neopoly.de",
-    "projectManager.git.baseFolders": [
-        "Users/ab_local/Development/"
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.codeLens.scopes": [
+        "document"
     ],
-    "projectManager.any.maxDepthRecursion": 0,
-    "projectManager.git.maxDepthRecursion": 0,
-    "projectManager.groupList": true,
+    "gitlens.blame.highlight.locations": [
+        "line",
+        "overview"
+    ],
+
+    // Remote SSH
     "remote.SSH.lockfilesInTmp": true,
     "remote.SSH.configFile": "/Users/ab_local/.ssh/config",
     "remote.SSH.showLoginTerminal": true,
+
+    // SFTP
     "sftp.debug": true,
     "sftp.printDebugLog": true,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "gulp.autoDetect": "off",
-    "grunt.autoDetect": "off",
-    "jake.autoDetect": "off",
-    "npm.autoDetect": "off",
+
+    // Other extensions
     "testExplorer.addToEditorContextMenu": true,
+    "terminals.showCommands": true,
     "svgviewer.enableautopreview": true,
     "path-intellisense.showHiddenFiles": true,
-    "search.exclude": {
-        "**/.git/": true,
-        "**/log": true,
-        "**/tmp": true
-    },
-    "solargraph.diagnostics": true,
-    "rufo.exe": "/Users/ab_local/Development/.vendor/rbenv/shims/rufo",
-    "ruby.format": "rufo",
-    "vscode-mysql.resultTheme": "Default",
-    "gitlens.views.fileHistory.location": "scm",
-    "gitlens.views.lineHistory.location": "scm",
-    "breadcrumbs.enabled": true,
-    "window.restoreFullscreen": true,
-    "window.nativeTabs": true,
-    "window.titleBarStyle": "native",
-    "window.zoomLevel": 1,
-    "workbench.activityBar.visible": true,
-    "workbench.editor.closeEmptyGroups": false,
-    "workbench.statusBar.visible": false,
-    "diffEditor.renderSideBySide": false,
-    "git.fetchOnPull": true,
-    "terminal.integrated.fontSize": 9,
-    "terminal.integrated.lineHeight": 1.4,
-    "terminal.integrated.cursorStyle": "underline",
-    "debug.console.fontSize": 9,
-    "markdown.preview.fontSize": 14,
-    "[Log]": {
-        "editor.fontSize": 9
-    },
-    "workbench.colorCustomizations": {
-        "[Default Dark+]": {
-            "terminal.background": "#0f0e0e",
-            "activityBar.background": "#0f0e0e",
-            "sideBar.background": "#090909",
-            "panel.background": "#0f0e0e",
-            "editor.background": "#0f0e0e"
-        }
-    },
-    "editor.fontSize": 14
+    "markdown.preview.fontSize": 14
 }
