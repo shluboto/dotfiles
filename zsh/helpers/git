@@ -1,4 +1,4 @@
 #!/bin/sh
 
-alias gg="git log"
+alias gg="git log | more"
 alias gst="git st"
