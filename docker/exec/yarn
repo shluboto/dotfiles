@@ -4,4 +4,4 @@ set -e
 
 source $HOME/.env
 
-docker exec -it -w $(pwd) node /bin/sh -c "yarn $@"
+docker exec -i -w $(pwd) node /bin/sh -c "yarn $@"

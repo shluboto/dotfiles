@@ -5,12 +5,12 @@ set -e
 ln -sf $DOT_DIR/docker/exec/node /usr/local/bin
 ln -sf $DOT_DIR/docker/exec/yarn /usr/local/bin
 
-docker create -it                                         \
+docker create -i                                          \
               --init                                      \
               --name=node                                 \
               --restart=unless-stopped                    \
               --shm-size 512M                             \
               -v $HOME:$HOME                              \
-              node:lts
+              node:12.16.3
 
 docker start node
