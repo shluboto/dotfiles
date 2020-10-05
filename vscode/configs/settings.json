@@ -48,7 +48,6 @@
     "terminals.showCommands": true,
     "logViewer.showStatusBarItemOnChange": true,
     "logViewer.logLevel": "debug",
-    "git.alwaysShowStagedChangesResourceGroup": true,
     "git.branchSortOrder": "alphabetically",
     "git.autoStash": true,
     "git.allowForcePush": true,
@@ -133,20 +132,28 @@
     "window.restoreFullscreen": true,
     "window.nativeTabs": true,
     "window.titleBarStyle": "native",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "workbench.activityBar.visible": true,
     "workbench.editor.closeEmptyGroups": false,
     "workbench.statusBar.visible": false,
     "diffEditor.renderSideBySide": false,
-    "editor.renderWhitespace": "all",
-    "workbench.fontAliasing": "antialiased",
     "git.fetchOnPull": true,
-    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.fontSize": 9,
     "terminal.integrated.lineHeight": 1.4,
     "terminal.integrated.cursorStyle": "underline",
-    "debug.console.fontSize": 10,
-    "markdown.preview.fontSize": 12,
+    "debug.console.fontSize": 9,
+    "markdown.preview.fontSize": 14,
     "[Log]": {
-        "editor.fontSize": 10
-    }
+        "editor.fontSize": 9
+    },
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "terminal.background": "#0f0e0e",
+            "activityBar.background": "#0f0e0e",
+            "sideBar.background": "#090909",
+            "panel.background": "#0f0e0e",
+            "editor.background": "#0f0e0e"
+        }
+    },
+    "editor.fontSize": 14
 }

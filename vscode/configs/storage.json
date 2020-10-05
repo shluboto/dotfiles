@@ -3,32 +3,57 @@
     "openedPathsList": {
         "workspaces3": [
             {
-                "id": "acb619b75955dbd97b892ca09deccec4",
-                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/shluboto.code-workspace"
+                "id": "d90c65c0a78314bfb4a4d5a621703a6a",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy-ctrl.code-workspace"
             },
             {
                 "id": "40340bdfb0f6a9bee30f3a8480730604",
                 "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy.code-workspace"
             },
             {
-                "id": "d90c65c0a78314bfb4a4d5a621703a6a",
-                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy-ctrl.code-workspace"
+                "id": "fc8b6022a5ddbc741a21ae0b879e7298",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/dflfantasy-ctrl.code-workspace"
             },
             {
-                "id": "91b7904eacea575cea57cf5b4d0603cb",
-                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitalia.code-workspace"
+                "id": "a9b80d3f4762a551d4c84d0cab3cc1a8",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles-ctrl.code-workspace"
+            },
+            {
+                "id": "d7e89489527d2f8f1d2266de3abccedc",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles.code-workspace"
+            },
+            "file:///Users/ab_local/Development/shluboto/dotfiles",
+            {
+                "id": "acb619b75955dbd97b892ca09deccec4",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/shluboto.code-workspace"
+            },
+            {
+                "id": "c934a9461e036f9bdeb21bda58385495",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dflfantasy.code-workspace"
+            },
+            {
+                "id": "6acc3cd8fedd43731abce839a4a7f3e5",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy.code-workspace"
+            },
+            {
+                "id": "2903c6b7cea0da2e4060edf74c9121cd",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy-ctrl.code-workspace"
             },
             {
                 "id": "44ea15d7432f19750949dc06d8222ed0",
                 "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dfl.code-workspace"
             },
             {
-                "id": "40214089e889671f47c2e2a6cfea6abc",
-                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/neopoly-personal.code-workspace"
-            },
-            {
                 "id": "3b364361f6f9cd0593cda079b4c630bf",
                 "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1.code-workspace"
+            },
+            {
+                "id": "91b7904eacea575cea57cf5b4d0603cb",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitalia.code-workspace"
+            },
+            {
+                "id": "40214089e889671f47c2e2a6cfea6abc",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/neopoly-personal.code-workspace"
             },
             "vscode-remote://ssh-remote%2Bskyitfantasy/home/projekte/skyitfantasy",
             "file:///Users/ab_local/Development/shluboto/private",
@@ -42,6 +67,10 @@
             }
         ],
         "files2": [
+            "file:///Users/ab_local/Downloads/player_history_23181625.1600625115.json",
+            "file:///Users/ab_local/Downloads/match_history_23181625.1600625101.json",
+            "file:///Users/ab_local/Development/shluboto/dotfiles/docker/exec/mysql",
+            "file:///Users/ab_local/Development/shluboto/dotfiles/docker/create/mysql",
             "file:///Users/ab_local/Downloads/player_data_for_matchday-1.csv",
             "file:///Users/ab_local/Downloads/players_76nbo7xemy.csv",
             "file:///Users/ab_local/Development/skyitalia/skyitfantasy/.git/rebase-merge/git-rebase-todo",
@@ -59,9 +88,16 @@
             null,
             null,
             null,
-            "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitalia (Workspace)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
             "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dfl (Workspace)",
             null,
+            "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitalia (Workspace)",
             null,
             "/home/projekte/skyitfantasy [SSH: skyitfantasy]",
             null,
@@ -99,7 +135,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -108,23 +145,13 @@
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/shluboto.code-workspace",
-                                        "external": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/shluboto.code-workspace",
-                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/shluboto.code-workspace",
+                                        "fsPath": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles.code-workspace",
+                                        "external": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles.code-workspace",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/shluboto (Workspace)"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy (Workspace)"
+                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/dotfiles (Workspace)"
                                 },
                                 {
                                     "id": "openRecentWorkspace",
@@ -140,77 +167,129 @@
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitalia.code-workspace",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitalia (Workspace)"
+                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy (Workspace)"
                                 },
                                 {
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dfl.code-workspace",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/dflfantasy-ctrl.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dfl (Workspace)"
+                                    "label": "~/Development/shluboto/dotfiles/vscode/dflfantasy-ctrl (Workspace)"
                                 },
                                 {
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/neopoly-personal.code-workspace",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles-ctrl.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/neopoly-personal (Workspace)"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/laola1 (Workspace)"
+                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/dotfiles-ctrl (Workspace)"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "vscode-remote://ssh-remote%2Bskyitfantasy/home/projekte/skyitfantasy",
-                                        "path": "/home/projekte/skyitfantasy",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+skyitfantasy"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/projekte/skyitfantasy [SSH: skyitfantasy]"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///Users/ab_local/Development/shluboto/private",
-                                        "path": "/Users/ab_local/Development/shluboto/private",
+                                        "external": "file:///Users/ab_local/Development/shluboto/dotfiles",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Development/shluboto/private"
+                                    "label": "~/Development/shluboto/dotfiles"
                                 },
                                 {
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/sueddeutsche.code-workspace",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/shluboto.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/sueddeutsche (Workspace)"
+                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/shluboto (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dflfantasy.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/dflfantasy (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy-ctrl.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy-ctrl (Workspace)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///Users/ab_local/Downloads/player_history_23181625.1600625115.json",
+                                        "path": "/Users/ab_local/Downloads/player_history_23181625.1600625115.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/player_history_23181625.1600625115.json"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///Users/ab_local/Downloads/match_history_23181625.1600625101.json",
+                                        "path": "/Users/ab_local/Downloads/match_history_23181625.1600625101.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/match_history_23181625.1600625101.json"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///Users/ab_local/Development/shluboto/dotfiles/docker/exec/mysql",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/docker/exec/mysql",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Development/shluboto/dotfiles/docker/exec/mysql"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///Users/ab_local/Development/shluboto/dotfiles/docker/create/mysql",
+                                        "path": "/Users/ab_local/Development/shluboto/dotfiles/docker/create/mysql",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Development/shluboto/dotfiles/docker/create/mysql"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -277,50 +356,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Downloads/player_data_for_matchday.csv"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///Users/ab_local/.zshrc",
-                                        "path": "/Users/ab_local/.zshrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.zshrc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///Users/ab_local/Development/skyitalia/feeds_production/srml-21-2020-results.xml",
-                                        "path": "/Users/ab_local/Development/skyitalia/feeds_production/srml-21-2020-results.xml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Development/skyitalia/feeds_production/srml-21-2020-results.xml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///Users/ab_local/.ssh/config",
-                                        "path": "/Users/ab_local/.ssh/config",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.ssh/config"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///Users/ab_local/Downloads/DFL_03_03_events_matchstatistics_DFL-COM-000001_DFL-MAT-003BXQ.xml",
-                                        "path": "/Users/ab_local/Downloads/DFL_03_03_events_matchstatistics_DFL-COM-000001_DFL-MAT-003BXQ.xml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/DFL_03_03_events_matchstatistics_DFL-COM-000001_DFL-MAT-003BXQ.xml"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1690,14 +1725,18 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#0f0e0e",
     "pickerWorkingDir": "/Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/1601668196314",
+            "workspaceIdentifier": {
+                "id": "d90c65c0a78314bfb4a4d5a621703a6a",
+                "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy-ctrl.code-workspace"
+            },
+            "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/d90c65c0a78314bfb4a4d5a621703a6a",
             "uiState": {
                 "mode": 3,
-                "display": 724071117,
+                "display": 188877697,
                 "width": 1024,
                 "height": 768,
                 "x": 448,
@@ -1707,17 +1746,107 @@
         "openedWindows": [
             {
                 "workspaceIdentifier": {
+                    "id": "6acc3cd8fedd43731abce839a4a7f3e5",
+                    "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/6acc3cd8fedd43731abce839a4a7f3e5",
+                "uiState": {
+                    "mode": 3,
+                    "display": 188877697,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 448,
+                    "y": 156
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "c934a9461e036f9bdeb21bda58385495",
+                    "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dflfantasy.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/c934a9461e036f9bdeb21bda58385495",
+                "uiState": {
+                    "mode": 3,
+                    "display": 188877697,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 448,
+                    "y": 156
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "2903c6b7cea0da2e4060edf74c9121cd",
+                    "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/laola1fantasy-ctrl.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/2903c6b7cea0da2e4060edf74c9121cd",
+                "uiState": {
+                    "mode": 3,
+                    "display": 188877697,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 448,
+                    "y": 156
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "fc8b6022a5ddbc741a21ae0b879e7298",
+                    "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/dflfantasy-ctrl.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/fc8b6022a5ddbc741a21ae0b879e7298",
+                "uiState": {
+                    "mode": 3,
+                    "display": 188877697,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 448,
+                    "y": 156
+                }
+            },
+            {
+                "workspaceIdentifier": {
                     "id": "40340bdfb0f6a9bee30f3a8480730604",
                     "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/skyitfantasy.code-workspace"
                 },
                 "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/40340bdfb0f6a9bee30f3a8480730604",
                 "uiState": {
                     "mode": 3,
-                    "display": 724071117,
-                    "width": 1393,
-                    "height": 877,
-                    "x": 55,
-                    "y": 23
+                    "display": 188877697,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 448,
+                    "y": 156
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "d7e89489527d2f8f1d2266de3abccedc",
+                    "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/d7e89489527d2f8f1d2266de3abccedc",
+                "uiState": {
+                    "mode": 3,
+                    "display": 188877697,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 448,
+                    "y": 156
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "a9b80d3f4762a551d4c84d0cab3cc1a8",
+                    "configURIPath": "file:///Users/ab_local/Development/shluboto/dotfiles/vscode/workspaces/dotfiles-ctrl.code-workspace"
+                },
+                "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/a9b80d3f4762a551d4c84d0cab3cc1a8",
+                "uiState": {
+                    "mode": 3,
+                    "display": 188877697,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 448,
+                    "y": 156
                 }
             },
             {
@@ -1728,18 +1857,7 @@
                 "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/d90c65c0a78314bfb4a4d5a621703a6a",
                 "uiState": {
                     "mode": 3,
-                    "display": 724071117,
-                    "width": 1024,
-                    "height": 768,
-                    "x": 448,
-                    "y": 156
-                }
-            },
-            {
-                "backupPath": "/Users/ab_local/Development/.vendor/vscode/Backups/1601668196314",
-                "uiState": {
-                    "mode": 3,
-                    "display": 724071117,
+                    "display": 188877697,
                     "width": 1024,
                     "height": 768,
                     "x": 448,
