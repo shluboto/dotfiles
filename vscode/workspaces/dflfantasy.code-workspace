@@ -11,9 +11,6 @@
 		},
 		{
 			"path": "../../../../dfl/feeds_staging-sts"
-		},
-		{
-			"path": "../../../../scoreboard/scoreboard-manager2"
 		}
 	],
 	"settings": {}

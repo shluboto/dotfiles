@@ -6,7 +6,6 @@
 	],
 	"settings": {
 		"git.detectSubmodules": false,
-		"git.openDiffOnClick": false,
 		"git.showPushSuccessNotification": true,
 		"git.untrackedChanges": "separate",
 		"workbench.activityBar.visible": false,
