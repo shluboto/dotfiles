@@ -4,11 +4,11 @@ set -e
 
 ln -sf $DOT_DIR/docker/exec/memcached /usr/local/bin
 
-docker create -it                               \
-              --init                            \
-              --name=memcached                  \
-              --restart=unless-stopped          \
-              -p :$MEMCACHE_PORT:$MEMCACHE_PORT \
+docker create -it                              \
+              --init                           \
+              --name=memcached                 \
+              --restart=unless-stopped         \
+              -p $MEMCACHE_PORT:$MEMCACHE_PORT \
               memcached:1
 
 docker start memcached

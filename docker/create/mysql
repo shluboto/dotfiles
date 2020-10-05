@@ -6,7 +6,7 @@ docker create -it                                                               
               --init                                                                     \
               --name=mysql                                                               \
               --restart=unless-stopped                                                   \
-              -p :$MYSQL_PORT:$MYSQL_PORT                                                \
+              -p $MYSQL_PORT:$MYSQL_PORT                                                 \
               -v mysql-storage:/var/lib/mysql                                            \
               -e MYSQL_ROOT_PASSWORD                                                     \
               -h MYSQL_HOST                                                              \
