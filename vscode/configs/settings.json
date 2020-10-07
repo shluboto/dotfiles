@@ -1,5 +1,4 @@
 {
-    // VS Code
     "gulp.autoDetect": "off",
     "grunt.autoDetect": "off",
     "jake.autoDetect": "off",
@@ -14,7 +13,6 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
 
-    // Workbench
     "breadcrumbs.enabled": true,
     "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": false,
@@ -38,7 +36,6 @@
         }
     },
 
-    // Window
     "window.newWindowDimensions": "inherit",
     "window.restoreFullscreen": true,
     "window.nativeTabs": true,
@@ -46,7 +43,6 @@
     "window.zoomLevel": 1,
     "window.openFoldersInNewWindow": "on",
 
-    // Editor
     "editor.columnSelection": false,
     "editor.fontSize": 14,
     "editor.fontFamily": "FiraCode-Light",
@@ -60,7 +56,6 @@
     "editor.find.addExtraSpaceOnTop": false,
     "editor.overviewRulerBorder": true,
 
-    // Explorer
     "explorer.autoReveal": false,
     "explorer.confirmDelete": true,
     "explorer.compactFolders": false,
@@ -76,7 +71,6 @@
         "*.sample": "shellscript"
     },
 
-    // Terminal / Logging
     "terminal.integrated.fontSize": 9,
     "terminal.integrated.lineHeight": 1.4,
     "terminal.integrated.cursorStyle": "underline",
@@ -85,12 +79,11 @@
         "editor.fontSize": 9
     },
 
-    // Crystal
     "crystal-lang.completion": true,
     "crystal-lang.hover": true,
     "crystal-lang.implementations": true,
 
-    // Ruby
+
     "ruby.format": "rufo",
     "rufo.exe": "/Users/ab_local/Development/.vendor/rbenv/shims/rufo",
     "rubyTestExplorer.logpanel": true,
@@ -102,7 +95,6 @@
     "solargraph.checkGemVersion": false,
     "solargraph.diagnostics": true,
 
-    // Git
     "diffEditor.maxComputationTime": 0,
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.renderSideBySide": false,
@@ -113,21 +105,17 @@
     "git.enableStatusBarSync": false,
     "git.fetchOnPull": true,
 
-    // Gitlab
     "gitlab.showIssueLinkOnStatusBar": false,
     "gitlab.showMrStatusOnStatusBar": false,
     "gitlab.instanceUrl": "https://gitlab.neopoly.de",
 
-    // Remote SSH
     "remote.SSH.lockfilesInTmp": true,
     "remote.SSH.configFile": "/Users/ab_local/.ssh/config",
     "remote.SSH.showLoginTerminal": true,
 
-    // SFTP
     "sftp.debug": true,
     "sftp.printDebugLog": true,
 
-    // Other extensions
     "testExplorer.addToEditorContextMenu": true,
     "terminals.showCommands": true,
     "svgviewer.enableautopreview": true,
