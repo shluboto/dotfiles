@@ -35,3 +35,4 @@ source $DOT_DIR/zsh/helpers/nvm
 source $DOT_DIR/zsh/helpers/ls
 
 eval "$(rbenv init -)"
+export PATH="/usr/local/opt/node@12/bin:$PATH"
