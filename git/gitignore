@@ -2,3 +2,4 @@
 .rakeTasks
 .generators
 .DS_Store
+.vscode/
