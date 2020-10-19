@@ -11,3 +11,7 @@ rbenv install $RUBY_VERSION
 # Update rubygems/bundler:
 gem update --system
 gem install bundler
+gem install solargraph
+gem install rufo
+
+solargraph download-core $RUBY_VERSION
