@@ -28,10 +28,7 @@ autoload -Uz compinit && compinit -i -d $GLOBAL_CACHE_DIR/zsh/zcompdump-$ZSH_VER
 # Helpers:
 source $DOT_DIR/zsh/helpers/reload
 source $DOT_DIR/zsh/helpers/prompt
-source $DOT_DIR/zsh/helpers/code
-source $DOT_DIR/zsh/helpers/git
 source $DOT_DIR/zsh/helpers/ssh
-source $DOT_DIR/zsh/helpers/nvm
 source $DOT_DIR/zsh/helpers/ls
 
 eval "$(rbenv init -)"
