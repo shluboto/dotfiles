@@ -3,9 +3,6 @@
 set -e
 
 brew install git
-brew install git-lfs
-
-git lfs install --system
 
 ln -sf $DOT_DIR/git/gitconfig /usr/local/etc/gitconfig
 
