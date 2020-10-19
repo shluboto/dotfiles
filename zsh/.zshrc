@@ -23,7 +23,7 @@ export PATH="$(brew --prefix)/coreutils/libexec/gnubin:$PATH"
 export PATH="$RBENV_ROOT/bin:$PATH"
 
 # Completions:
-autoload -Uz compinit && compinit -i -d $GLOBAL_CACHE_DIR/zsh/zcompdump-$ZSH_VERSION
+autoload -Uz compinit && compinit -i -d $HOME/.zcompdump-$ZSH_VERSION
 
 # Helpers:
 source $DOT_DIR/zsh/helpers/reload
