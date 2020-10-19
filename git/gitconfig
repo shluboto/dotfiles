@@ -44,7 +44,6 @@
 
 [core]
   editor = $EDITOR -
-  pager = cat
 	excludesfile = /Users/ab_local/Development/shluboto/dotfiles/git/gitignore
 [user]
 	name = Andreas Busold
