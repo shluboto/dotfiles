@@ -21,6 +21,7 @@ source $PRV_DIR/.env
 # Paths:
 export PATH="$(brew --prefix)/coreutils/libexec/gnubin:$PATH"
 export PATH="$RBENV_ROOT/bin:$PATH"
+export PATH="/usr/local/opt/node@12/bin:$PATH"
 
 # Completions:
 autoload -Uz compinit && compinit -i -d $HOME/.zcompdump-$ZSH_VERSION
@@ -32,4 +33,3 @@ source $DOT_DIR/zsh/helpers/ssh
 source $DOT_DIR/zsh/helpers/ls
 
 eval "$(rbenv init -)"
-export PATH="/usr/local/opt/node@12/bin:$PATH"
