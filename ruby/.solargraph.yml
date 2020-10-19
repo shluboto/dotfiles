@@ -1,10 +1,11 @@
 ---
 include:
-- "**/*.rb"
+  - "**/*.rb"
 exclude:
-- "**/.bundle"
+  - "**/.bundle"
 require: []
 domains: []
 reporters:
-- require_not_found
+  - typecheck
+  - require_not_found
 max_files: 5000
