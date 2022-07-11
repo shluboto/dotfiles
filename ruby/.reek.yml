@@ -1,0 +1,17 @@
+# https://github.com/troessner/reek#configuration-file
+
+detectors:
+  IrresponsibleModule:
+    enabled: false
+  FeatureEnvy:
+    enabled: false
+  TooManyStatements:
+    enabled: false
+  DuplicateMethodCall:
+    enabled: false
+  UncommunicativeVariableName:
+    enabled: false
+  NestedIterators:
+    enabled: false
+  UtilityFunction:
+    enabled: false
