@@ -5,12 +5,15 @@
 127.0.0.1 mysql
 127.0.0.1 mattermost.localhost
 
+127.0.0.1 ab-sdquiz.neopoly.de
+
 127.0.0.1 game-ab-dflfantasy.neopoly.de
 127.0.0.1 desk-ab-dflfantasy.neopoly.de
 127.0.0.1 share-ab-dflfantasy.neopoly.de
 127.0.0.1 ranking-ab-dflfantasy.neopoly.de
 127.0.0.1 faktory-ab-dflfantasy.neopoly.de
 127.0.0.1 match_details-ab-dflfantasy.neopoly.de
+127.0.0.1 game-ran-ab-dflfantasy.neopoly.de
 
 127.0.0.1 game-ab-laola1fantasy.neopoly.de
 127.0.0.1 desk-ab-laola1fantasy.neopoly.de
