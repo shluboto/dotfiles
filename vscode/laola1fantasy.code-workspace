@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "laola1fantasy",
+			"path": "../../../laola1/laola1fantasy"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "laola1fantasy",
+				"database": "laola1fantasy",
+				"username": "root",
+				"password": "root"
+			}
+		]
+	}
+}

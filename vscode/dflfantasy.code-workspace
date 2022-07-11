@@ -1,10 +1,16 @@
 {
 	"folders": [
 		{
+			"name": "dflfantasy",
 			"path": "../../../dfl/dflfantasy"
 		},
 		{
-			"path": "../../../dfl/documentation"
+			"name": "feeds_production-sts",
+			"path": "../../../dfl/feeds_production-sts"
+		},
+		{
+			"name": "feeds_staging-sts",
+			"path": "../../../dfl/feeds_staging-sts"
 		}
 	],
 	"settings": {
@@ -22,6 +28,102 @@
 				"username": "root",
 				"password": "root"
 			}
+		],
+		"sshfs.configs": [
+			{
+				"name": "kebap",
+				"host": "kebap.neopoly.de",
+				"root": "/home/projekte/dflfantasy",
+				"username": "dflfantasy",
+				"hop": "office",
+				"merge": true,
+				"password": true
+			},
+			{
+				"name": "hetzner197",
+				"merge": true,
+				"host": "hetzner197.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner198",
+				"merge": true,
+				"host": "hetzner198.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner199",
+				"merge": true,
+				"host": "hetzner199.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner200",
+				"merge": true,
+				"host": "hetzner200.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner201",
+				"merge": true,
+				"host": "hetzner201.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner225",
+				"merge": true,
+				"host": "hetzner197.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner226",
+				"merge": true,
+				"host": "hetzner226.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner227",
+				"merge": true,
+				"host": "hetzner227.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "hetzner231",
+				"merge": true,
+				"host": "hetzner231.neopoly.de",
+				"username": "dflfantasy",
+				"hop": "kebap",
+				"root": "/home/dflfantasy/",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			}
+		],
+		"git.ignoredRepositories": [
+			"time_gateway",
+			"grafana"
 		]
 	}
 }

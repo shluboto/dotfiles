@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../../sueddeutsche/sddrive"
+		}
+	],
+	"settings": {
+		"sshfs.configs": [
+			{
+				"name": "sddrive",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa",
+				"root": "/home/projekte/sddrive",
+				"host": "office.neopoly.de",
+				"label": "sddrive",
+				"group": "office",
+				"username": "ab"
+			}
+		],
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 500,
+				"server": "mysql",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "sddrive",
+				"database": "sddrive",
+				"username": "root",
+				"password": "root"
+			}
+		]
+	}
+}

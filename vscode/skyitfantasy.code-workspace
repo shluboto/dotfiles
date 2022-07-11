@@ -1,0 +1,105 @@
+{
+	"folders": [
+		{
+			"name": "skyitfantasy",
+			"path": "../../../skyitalia/skyitfantasy"
+		},
+		{
+			"path": "../../../skyitalia/feeds_production"
+		},
+		{
+			"path": "../../../skyitalia/tmp"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "mysql",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "skyitfantasy",
+				"database": "skyitfantasy",
+				"username": "root",
+				"password": "root"
+			}
+		],
+		"sshfs.configs": [
+			{
+				"name": "kebap",
+				"host": "kebap.neopoly.de",
+				"root": "/home/projekte/skyitfantasy",
+				"username": "skyitfantasy",
+				"hop": "ab",
+				"merge": true,
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "feeds",
+				"merge": true,
+				"host": "seflow4.neopoly.de",
+				"username": "skyitfantasy",
+				"hop": "kebap",
+				"root": "/var/data/opta",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "seflow4",
+				"merge": true,
+				"host": "seflow4.neopoly.de",
+				"username": "skyitfantasy",
+				"hop": "kebap",
+				"root": "/home/skyitfantasy",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "seflow5",
+				"merge": true,
+				"host": "seflow5.neopoly.de",
+				"username": "skyitfantasy",
+				"hop": "kebap",
+				"root": "/home/skyitfantasy",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "seflow6",
+				"merge": true,
+				"host": "seflow6.neopoly.de",
+				"username": "skyitfantasy",
+				"hop": "kebap",
+				"root": "/home/skyitfantasy",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "seflow7",
+				"merge": true,
+				"host": "seflow4.neopoly.de",
+				"username": "skyitfantasy",
+				"hop": "kebap",
+				"root": "/home/skyitfantasy",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "seflow7",
+				"merge": true,
+				"host": "seflow4.neopoly.de",
+				"username": "skyitfantasy",
+				"hop": "kebap",
+				"root": "/home/skyitfantasy",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			},
+			{
+				"name": "seflow8",
+				"merge": true,
+				"host": "seflow8.neopoly.de",
+				"username": "skyitfantasy",
+				"hop": "kebap",
+				"root": "/home/skyitfantasy",
+				"privateKeyPath": "/Users/ab_local/Development/shluboto/private/.ssh/id_rsa"
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "../../../sueddeutsche/sdiqtest"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "mysql",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "sdiqtest",
+				"database": "sdiqtest",
+				"username": "root",
+				"password": "root"
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Rails server",
+				"type": "Ruby",
+				"request": "launch",
+				"program": "${workspaceRoot}/bin/rails",
+				"args": [
+					"server"
+				]
+			}
+		]
+	}
+}

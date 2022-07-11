@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../../sueddeutsche/sdquiz"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "mysql",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "sdquiz",
+				"database": "sdquiz",
+				"username": "root",
+				"password": "root"
+			}
+		]
+	}
+}

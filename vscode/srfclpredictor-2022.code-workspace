@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../../srfclpredictor-2022"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "mysql",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "mysql",
+				"database": "srfclpredictor",
+				"username": "root",
+				"password": "root"
+			}
+		]
+	}
+}
