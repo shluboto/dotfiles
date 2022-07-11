@@ -34,3 +34,6 @@ xcode-select --install 2>&1
 
 # Install vscode
 #./vscode/install
+
+cp ./launchd/set_audio_output.plist ~/Library/LaunchAgents/local.ab_local.set_audio_output.plist
+launchctl load ~/Library/LaunchAgents/local.ab_local.set_audio_output.plist
