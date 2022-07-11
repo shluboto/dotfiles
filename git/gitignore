@@ -3,3 +3,4 @@
 .generators
 .DS_Store
 .vscode/
+.history/
