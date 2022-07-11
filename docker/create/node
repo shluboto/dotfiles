@@ -11,6 +11,7 @@ docker create -i                                          \
               --restart=unless-stopped                    \
               --shm-size 512M                             \
               -v $HOME:$HOME                              \
-              node:12.16.3
+              -v $HOME/.cache/yarn:/home/node/.cache/yarn \
+              node:lts-alpine
 
 docker start node
